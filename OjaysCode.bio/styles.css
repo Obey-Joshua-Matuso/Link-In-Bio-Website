@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("mike-yukhtenko-wfh8dDlNFOk-unsplash.jpg");
+    background-size: cover;
+    color: white;
+    overflow: scroll;
+}
+
+.container {
+    margin-top: 26%;
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (min-width: 500px) {
+    .container{
+        margin-top: 8%;
+    }
+}
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h1 {
+    font-size: 30px;
+    padding: 0.6em 0;
+}
+
+.header p {
+    text-align: center;
+    padding: 0.2em 0;
+}
+
+.icon {
+    margin-top: 9%;
+    margin-bottom: 10%;
+    background: rgba(255, 255, 255, 0.158);
+    padding: 0.4em;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.icon:hover{
+    transform: translate3d(3px, 3px, -1px);
+    transition: 0.3s ease-in-out;
+}
+
+.header i {
+    color: rgba(255, 255, 255, 0.42);
+    font-size: 12px;
+}
+
+.header a {
+    font-weight: 200;
+    font-size: 13px;
+    padding-left: 0.3em;
+    color: white;
+}
+
+.container ul {
+    margin-top: 2%;
+    padding: 0;
+}
+
+.container ul li {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    padding: 0.7em;
+    text-align: center;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.607);
+    align-items: center;
+    cursor: pointer;
+    list-style: none;
+    margin-top: 6%;
+}
+
+.container ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container ul li:hover {
+    transform: translateY(-10px);
+    transition: 0.3s ease-in-out;
+}
+
+footer {
+    margin-top: auto;
+    padding: 10px 0;
+    color: rgba(213, 213, 213, 0.403);
+    text-align: center;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1.8em;
+}
+
+.socials a{
+    margin: 10px;
+    color: rgba(246, 246, 246, 0.847);
+    padding: 0.em;
+    position: relative;
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.607);
+    
+}
+.socials a:hover{
+    transform: translateY(-5px);
+    transition: 0.3s ease-in-out;
+
+}
+
